@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content}, ~{::title}, ~{::script})}">
+<head>
+    <title>About Us</title>
+</head>
+<body>
+    <div id="content" class="border">
+        <!-- About Us Banner -->
+        <section class="bg-blue-600 text-white py-20 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-4">About Us</h2>
+                <p class="text-lg max-w-3xl mx-auto">At Contact Manager, we are dedicated to providing a seamless and secure way to manage your contacts efficiently.</p>
+            </div>
+        </section>
+
+        <!-- Our Story -->
+        <section class="py-20 bg-white text-center">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold mb-6">Our Story</h2>
+                <p class="text-gray-600">Founded with the vision to simplify contact management, Contact Manager has been empowering individuals and businesses with secure and intuitive solutions. Our journey began with a simple idea—make contact organization effortless while ensuring top-notch security and accessibility.</p>
+            </div>
+        </section>
+
+        <!-- Our Mission & Vision -->
+        <section class="py-20 bg-gray-100 text-center">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold mb-6">Our Mission & Vision</h2>
+                <p class="text-gray-600 mb-4">Our mission is to revolutionize contact management by providing an easy, fast, and secure platform for users worldwide.</p>
+                <p class="text-gray-600">We envision a future where everyone can access their contacts seamlessly across devices with complete security and convenience.</p>
+            </div>
+        </section>
+
+        <!-- Our Values -->
+        <section class="py-20 bg-white text-center">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold mb-6">Our Core Values</h2>
+                <ul class="text-gray-600 list-none space-y-4">
+                    <li><strong>Innovation:</strong> We continuously enhance our platform to meet evolving user needs.</li>
+                    <li><strong>Security:</strong> Protecting user data with cutting-edge encryption and best practices.</li>
+                    <li><strong>User-Focused:</strong> Prioritizing simplicity and usability in every feature we build.</li>
+                    <li><strong>Reliability:</strong> Ensuring seamless access to contacts anytime, anywhere.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-20 bg-blue-600 text-white text-center">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+                <p class="text-lg mb-8">Have questions or want to learn more? Reach out to us!</p>
+                <a href="/contact" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Contact Us</a>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-8 text-center">
+            <div class="container mx-auto">
+                <p>&copy; 2025 Contact Manager. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        console.log("About page");
+    </script>
+</body>
+</html>

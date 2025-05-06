@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content}, ~{::title}, ~{::script})}">
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="content" class="border">
+        <!-- Contact Banner -->
+        <section class="bg-blue-600 text-white py-20 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+                <p class="text-lg max-w-3xl mx-auto">Have any questions or need support? Reach out to us and we'll be happy to assist you.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="py-20 bg-white text-center">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+                <form class="max-w-lg mx-auto">
+                    <input type="text" placeholder="Your Name" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded">
+                    <input type="email" placeholder="Your Email" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded">
+                    <textarea placeholder="Your Message" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded"></textarea>
+                    <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded font-semibold hover:bg-blue-700 transition duration-300">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact Details -->
+        <section class="py-20 bg-gray-100 text-center">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl font-bold mb-6">Our Contact Details</h2>
+                <p class="text-gray-600"><strong>Email:</strong> jageshwarrana25@gmail.com</p>
+                <p class="text-gray-600"><strong>Phone:</strong> 9031602729 </p>
+                <p class="text-gray-600"><strong>Address:</strong> Suriya, India</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20 bg-blue-600 text-white text-center">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-4">We're Here to Help</h2>
+                <p class="text-lg mb-8">Feel free to reach out anytime. Our team is ready to assist you.</p>
+                <a href="" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Contact Support</a>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-8 text-center">
+            <div class="container mx-auto">
+                <p>&copy; 2025 Contact Manager. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        console.log("Contact Us page");
+    </script>
+</body>
+</html>
